@@ -1,0 +1,8 @@
+\input{header.tex}
+\begin{document}
+\feynmandiagram[vertical=a to b]{
+    nu [particle=\(\nu_l\)] -- [fermion] a -- [fermion] l [particle=\(l\)],
+    a -- [boson, edge label=\(W^{\pm}\)] b,
+    N [particle = \(X\)] -- b -- X [particle = \(N\)],
+};
+\end{document}
